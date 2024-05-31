@@ -65,8 +65,6 @@ class _MyHomePageState extends State<MyHomePage> {
       _usernameController.clear();
       _passwordController.clear();
       FocusScope.of(context).unfocus();
-      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-          content: Text("Username and password are correct. Redirecting...")));
       Navigator.of(context).push(MaterialPageRoute(
         builder: (context) => const WeatherPage(),
       ));
@@ -91,6 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               children: [
                 Card(
+                  color: Colors.blueAccent.shade100,
                   child: Padding(
                     padding: const EdgeInsets.all(25.0),
                     child: Form(
@@ -101,7 +100,9 @@ class _MyHomePageState extends State<MyHomePage> {
                             "Weather App",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 34, fontWeight: FontWeight.bold),
+                                color: Colors.white,
+                                fontSize: 34,
+                                fontWeight: FontWeight.bold),
                           ),
                           const SizedBox(
                             height: 20,

@@ -23,9 +23,15 @@ class Conditions {
 }
 
 const BASE_OPENWEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?";
+const BASE_OPENWEATHER_FORECAST_URL =
+    "https://api.openweathermap.org/data/2.5/forecast?";
 const OPENWEATHER_API_KEY = "caa2ef62488f84f87dc69bcc2d72778e";
 
 extension StringCasingExtension on String {
-  String toCapitalized() => length > 0 ?'${this[0].toUpperCase()}${substring(1).toLowerCase()}':'';
-  String toTitleCase() => replaceAll(RegExp(' +'), ' ').split(' ').map((str) => str.toCapitalized()).join(' ');
+  String toCapitalized() =>
+      length > 0 ? '${this[0].toUpperCase()}${substring(1).toLowerCase()}' : '';
+  String toTitleCase() => replaceAll(RegExp(' +'), ' ')
+      .split(' ')
+      .map((str) => str.toCapitalized())
+      .join(' ');
 }

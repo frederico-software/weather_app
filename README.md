@@ -15,10 +15,10 @@ Username: Fred
 
 Password: 1234
 
-![screenshot](https://i.imgur.com/XFxBOpD.png)
+![screenshot](https://i.imgur.com/Rqb62T4.png)
 
 2) After entering the username and password, the user can click the Login button and go the main screen:
 
 The user can see the current Weather conditions:
 
-![screenshot](https://i.imgur.com/wvrvYsy.png)
+![screenshot](https://i.imgur.com/n0FscAe.png)
