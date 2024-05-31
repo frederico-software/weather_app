@@ -14,10 +14,10 @@ $ flutter run .\lib\main.dart
 Username: Fred
 Password: 1234
 
-![screenshot](login_screen.png)
+![screenshot](https://github.com/github/frederico-software/blob/login_screen.png)
 
 2) After entering the username and password, the user can click the Login button and go the main screen:
 
 The user can see the current Weather conditions:
 
-![screenshot](main_screen.png)
+![screenshot](https://github.com/github/frederico-software/blob/main_screen.png)
