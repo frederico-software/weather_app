@@ -14,7 +14,7 @@ $ flutter run .\lib\main.dart
 Username: Fred
 Password: 1234
 
-![screenshot](https://github.com/github/frederico-software/blob/login_screen.png)
+![screenshot](https://i.imgur.com/XFxBOpD.png)
 
 2) After entering the username and password, the user can click the Login button and go the main screen:
 
