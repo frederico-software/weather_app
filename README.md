@@ -12,6 +12,7 @@ $ flutter run .\lib\main.dart
 1) The user can login with the default username and password:
 
 Username: Fred
+
 Password: 1234
 
 ![screenshot](https://i.imgur.com/XFxBOpD.png)
