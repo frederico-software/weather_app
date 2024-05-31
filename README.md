@@ -20,4 +20,4 @@ Password: 1234
 
 The user can see the current Weather conditions:
 
-![screenshot](https://github.com/github/frederico-software/blob/main_screen.png)
+![screenshot](https://i.imgur.com/wvrvYsy.png)
